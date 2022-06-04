@@ -32,3 +32,13 @@ cci org scratch_delete dev -> deleta a scratch org para criar uma novinha depois
 cci org default qa -> Coloca a qa como padrão para poder trabalhar com ela.
 
 cci flow info qa_org -> Pega informações sobre o flow de criação da org de qa
+
+Configurar o cumulusci para que o flow qa_org possa implementar a task de deploy records automaticamente.
+
+cci flow run qa_org -> Executa a criação da organização de Qa
+
+cci org browser -> Para poder entrar na org de qa.
+
+cci task run robot -> Cria dados com dados aleatórios.
+
+cci org cratch_delete qa -> Deleta a scratch org de qa
