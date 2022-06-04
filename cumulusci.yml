@@ -22,3 +22,11 @@ tasks:
     run_tests:
         options:
             required_org_code_coverage_percent: 75
+
+# Change config_qa flow to include load_dataset step
+
+flows:
+    config_qa:
+        steps:
+            3:
+                task: load_dataset
