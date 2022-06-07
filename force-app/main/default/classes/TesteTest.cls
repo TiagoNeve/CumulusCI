@@ -5,6 +5,7 @@ public with sharing class TesteTest
     static void testeTest()
     {
         Teste t = new Teste();
+
         
     }
 }
