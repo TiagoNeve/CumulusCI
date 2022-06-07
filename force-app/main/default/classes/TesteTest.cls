@@ -6,6 +6,6 @@ public with sharing class TesteTest
     {
         Teste t = new Teste();
 
-        
+        System.debug('Eu não queria dizer nada não, mas eu subi automticamente pelo github');
     }
 }
