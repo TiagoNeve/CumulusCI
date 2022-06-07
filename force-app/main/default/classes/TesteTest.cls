@@ -6,9 +6,5 @@ public with sharing class TesteTest
     {
         // GIVEN
         Teste t = new Teste();
-
-        // WHEN
-
-        // THEN
     }
 }
