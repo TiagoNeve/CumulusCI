@@ -4,11 +4,8 @@ public with sharing class TesteTest
     @isTest
     static void testeTest()
     {
-        // GIVEN
         Teste t = new Teste();
 
-        // WHEN
-
-        // THEN
+        System.debug('Eu não queria dizer nada não, mas eu subi automticamente pelo github');
     }
 }
